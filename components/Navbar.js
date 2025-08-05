@@ -64,9 +64,19 @@ const Navbar = () => {
 
     const toggleMenu = () => setMenuOpen(prev => !prev);
     const handleNavClick = (href) => {
-        setActiveSection(href.substring(1));
+        const sectionId = href.substring(1);
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+
+        setActiveSection(sectionId);
         if (menuOpen) toggleMenu();
     };
+
 
     return (
         <>
@@ -100,7 +110,10 @@ const Navbar = () => {
                                     <ListItemButton
                                         key={link.name}
                                         href={link.href}
-                                        onClick={() => handleNavClick(link.href)}
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            handleNavClick(link.href);
+                                        }}
                                         sx={{
                                             color: activeSection === link.href.substring(1)
                                                 ? theme.palette.primary.main
@@ -144,18 +157,20 @@ const Navbar = () => {
                     transition: 'height 0.3s ease-in-out',
                     boxShadow: menuOpen ? '0px 4px 10px rgba(0, 0, 0, 0.1)' : 'none',
                     display: 'flex',
-                    flexDirection: 'column',
-                    pt: { xs:7, md: 0 }
+                    flexDirection: 'column'
                 }}
             >
                 <Container maxWidth="xl">
-                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', pt: { xs: 7, md: 0 } }}>
                         <List sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                             {navLinks.map(link => (
                                 <ListItemButton
                                     key={link.name}
                                     href={link.href}
-                                    onClick={() => handleNavClick(link.href)}
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        handleNavClick(link.href);
+                                    }}
                                     sx={{
                                         py: 2,
                                         color: activeSection === link.href.substring(1)
