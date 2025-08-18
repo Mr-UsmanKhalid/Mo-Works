@@ -104,9 +104,10 @@ const Footer = () => {
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                                 <Typography variant='body1' sx={{ fontWeight: 500 }}>Contact</Typography>
                                 <Box sx={{ fontStyle: 'normal' }}>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>Kerkhofstraat 25, 2840</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}> Address : Kerkhofstraat 25, 2840</Typography>
                                     <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>Rumst , Belgium</Typography>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>info@optimaize.be</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>VAT : BE1026.325.425</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>mail : info@optimaize.be</Typography>
                                     {/* <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>123 Business Avenue</Typography> */}
 
                                     {/* <p>123 Business Avenue</p> */}
