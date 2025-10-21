@@ -3,13 +3,13 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
     palette: {
         primary: {
-            main: "#5139FA",        // Primary brand color
+            main: "#008000",        // Primary brand color
             light: "#7E67FB",       // Optional lighter shade
             dark: "#3A2BC6",        // Optional darker shade
             contrastText: "#ffffff", // Text on primary buttons
         },
         secondary: {
-            main: "#5139FA",        // Also use brand purple for secondary
+            main: "#008000",        // Also use brand purple for secondary
             light: "#7E67FB",
             dark: "#3A2BC6",
             contrastText: "#ffffff",
@@ -93,7 +93,7 @@ const theme = createTheme({
                         transform: 'translateX(-50%) scaleX(0)',
                         width: '80%',
                         height: '2px',
-                        backgroundColor: '#5139FA',
+                        backgroundColor: '#008000',
                         transition: 'transform 0.3s ease',
                     },
                     '&:hover:after': {
@@ -105,7 +105,7 @@ const theme = createTheme({
         MuiChip: {
             styleOverrides: {
                 outlined: {
-                    borderColor: '#5139FA',
+                    borderColor: '#008000',
                     // color: '#5139FA',     
                 },
             },

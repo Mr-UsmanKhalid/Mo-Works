@@ -63,14 +63,11 @@ const AboutSection = () => {
                                 mx: 'auto'
                             }}
                         >
-                            OptimAlze is a pioneering AI automation startup focused on integrating
-                            the power of Generative AI and Agentic AI into real-world systems.
-                            Our mission is to build intelligent assistants and automation tools
-                            that reduce manual effort, enhance productivity, and enable meaningful
-                            human AI collaboration.Our team blends deep expertise in AI
-                            development, domain-specific consulting, and process automation.
-                            We work together with our partners to deliver cutting edge solutions
-                            with measurable impact.
+                            Mo Works helps businesses accelerate their digital transformation through expertise in Agile Transformation, Project Management, and Big Data & Business Intelligence.
+
+We empower teams to embrace agility, speed, and innovation while unlocking the power of data through tools like Power BI, Power Apps, Power Automate, Data Warehousing, and Data Analysis.
+
+Additionally, we offer training and skill development programs to build agile capabilities and data-driven proficiency for sustainable growth.
                         </Typography>
 
                     </Box>

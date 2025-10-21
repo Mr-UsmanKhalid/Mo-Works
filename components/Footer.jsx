@@ -24,15 +24,13 @@ const Footer = () => {
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                                     <Link href="#home" className="flex items-center gap-2 ">
-                                        <img src='/emoji.svg' className="h-7 w-7" />
+                                        <img src='/logo.png' className="h-7 w-7" />
                                         {/* <Code className="h-6 w-6 text-[#B91C1C]" /> */}
-                                        <Typography sx={{ fontSize: '16px',fontWeight:'600', color: theme.palette.primary.main, }}>OptimAlze</Typography>
+                                        <Typography sx={{ fontSize: '16px',fontWeight:'600', color: theme.palette.primary.main, }}>Mo Works</Typography>
                                     </Link>
 
                                     <Typography variant='body2' component='p'>
-                                        GenAI and Agentic AI to empower your future We help forward thinking organizations
-                                        automate complex tasks using Generative AI and Agentic AI. Whether it's citizen services,
-                                        internal operations, or customer support we make work smarter, faster, and easier.
+                                        Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools.
                                     </Typography>
                                 </Box>
 
@@ -50,10 +48,10 @@ const Footer = () => {
                                     {/* <GitHubIcon fontSize='small' sx={{ color: 'grey.600', '&:hover': { color: '#B91C1C' } }} /> */}
                                     {/* </IconButton> */}
                                     <Link
-                                        href='https://www.linkedin.com/company/optimaize-bv/'
+                                        href='https://www.linkedin.com/company/moworkseu/'
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-muted-foreground hover:text-[#5139FA] transition-colors"
+                                        className="text-muted-foreground hover:text-[#008000] transition-colors"
                                     >
                                         <Linkedin className="h-5 w-5" />
                                     </Link>
@@ -66,7 +64,7 @@ const Footer = () => {
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                                 <Typography variant='body1' sx={{ fontWeight: 500 }}>Quick Links</Typography>
                                 <ul className="space-y-2">
-                                    {["Home", "About", "Services", "Founder", "Contact"].map((item) => (
+                                    {["Home", "About", "Services", "Contact"].map((item) => (
                                         <li key={item}>
                                             <Link
                                                 href={`#${item.toLowerCase()}`}
@@ -85,7 +83,7 @@ const Footer = () => {
                                 <Typography variant='body1' sx={{ fontWeight: 500 }}>Services</Typography>
                                 <ul className="space-y-2">
                                     {[
-                                        "RAG (Retrieval-Augmented Generation) Systems", "AI-Powered Chatbots", "Generative AI Automation", "Agentic AI Assistants",
+                                        "Microsoft Fabric", "Synapse Data Warehousing", "Synapse Data Engineering", "Synapse Data Science","Power BI & Data Assets","Power Automate","Power Apps","Corporate Trainings",
                                     ].map((item) => (
                                         <li key={item}>
                                             <Link
@@ -104,10 +102,10 @@ const Footer = () => {
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                                 <Typography variant='body1' sx={{ fontWeight: 500 }}>Contact</Typography>
                                 <Box sx={{ fontStyle: 'normal' }}>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}> Address : Kerkhofstraat 25, 2840</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}> Address : Rumst, Antwerp 2840</Typography>
                                     <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>Rumst , Belgium</Typography>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>VAT : BE1026.325.425</Typography>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>mail : info@optimaize.be</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>VAT : BE0780.426.960</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>mail : info@moworks</Typography>
                                     {/* <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>123 Business Avenue</Typography> */}
 
                                     {/* <p>123 Business Avenue</p> */}
@@ -123,7 +121,7 @@ const Footer = () => {
                     <Divider sx={{ mt: 5 }} />
 
                     <Box sx={{ pt: 4, display: 'flex', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'space-between', alignItems: 'center' }}>
-                        <Typography variant='body2' sx={{ color: 'text.secondary' }}>© {currentYear} OptimAlze. All rights reserved.</Typography>
+                        <Typography variant='body2' sx={{ color: 'text.secondary' }}>© {currentYear} Mo-Works. All rights reserved.</Typography>
                         <Box sx={{ display: 'flex', gap: 3 }}>
                             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map(
                                 (item) => (

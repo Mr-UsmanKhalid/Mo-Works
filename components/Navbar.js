@@ -27,7 +27,7 @@ const Navbar = () => {
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Services', href: '#services' },
-        { name: 'Products', href: '#products' },
+        // { name: 'Products', href: '#products' },
         // { name: 'Team', href: '#team' },
         { name: 'Contact', href: '#contact' }
     ];
@@ -98,8 +98,8 @@ const Navbar = () => {
                                 {/* <img src='/logo.png' className='h-[100px] w-auto object-contain' alt='Logo' /> */}
                                 {/* <Code className="h-6 w-6" color={theme.palette.primary.main} />
                                 <Typography variant="h6" color="primary">Optim Alze</Typography> */}
-                                <img src='/emoji.svg' className="h-7 w-7" />
-                                <Typography sx={{ fontSize: '16px', fontWeight: '600', color: theme.palette.primary.main, }}>OptimAlze</Typography>
+                                <img src='/logo.png' className="h-7 w-7" />
+                                <Typography sx={{ fontSize: '16px', fontWeight: '600', color: theme.palette.primary.main, }}>Mo Works</Typography>
                             </Box>
                         </Box>
 

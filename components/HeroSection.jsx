@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-10">
           <motion.div
             className="absolute left-[10%] top-[20%] w-16 h-16 rounded-full"
-            style={{ backgroundColor: '#D1CCFD' }}
+            style={{ backgroundColor: '#DBFFE8' }}
             animate={{
               y: [0, -15, 0],
               x: [0, 5, 0]
@@ -28,7 +28,7 @@ const HeroSection = () => {
           />
           <motion.div
             className="absolute right-[15%] top-[25%] w-20 h-20 rounded-full"
-            style={{ backgroundColor: '#EAE7FE' }}
+            style={{ backgroundColor: '#E0FFE8' }}
             animate={{
               y: [0, -20, 0],
               x: [0, -8, 0]
@@ -42,7 +42,7 @@ const HeroSection = () => {
           />
           <motion.div
             className="absolute left-[20%] bottom-[15%] w-24 h-24 rounded-full"
-            style={{ backgroundColor: '#D1CCFD' }}
+            style={{ backgroundColor: '#E0FFE8' }}
             animate={{
               y: [0, 20, 0],
               x: [0, 12, 0]
@@ -56,7 +56,7 @@ const HeroSection = () => {
           />
           <motion.div
             className="absolute right-[25%] bottom-[20%] w-32 h-32 rounded-full"
-            style={{ backgroundColor: '#EAE7FE' }}
+            style={{ backgroundColor: '#E0FFE8' }}
             animate={{
               y: [0, 15, 0],
               x: [0, -10, 0]
@@ -70,7 +70,7 @@ const HeroSection = () => {
           />
           <motion.div
             className="absolute left-[40%] top-[10%] w-12 h-12 rounded-full"
-            style={{ backgroundColor: '#EAE7FE' }}
+            style={{ backgroundColor: '#E0FFF0' }}
             animate={{
               y: [0, -12, 0],
               x: [0, 8, 0]
@@ -84,7 +84,7 @@ const HeroSection = () => {
           />
           <motion.div
             className="absolute right-[35%] top-[50%] w-16 h-16 rounded-full"
-            style={{ backgroundColor: '#EAE7FE' }}
+            style={{ backgroundColor: '#E0FFE8' }}
             animate={{
               y: [0, 18, 0],
               x: [0, -6, 0]
@@ -125,7 +125,7 @@ const HeroSection = () => {
                     zIndex: 50
                   }}
                 >
-                  OptimAlze
+                  Mo Works
                 </Typography>
 
                 <Typography
@@ -138,9 +138,7 @@ const HeroSection = () => {
                     zIndex: 50
                   }}
                 >
-                  GenAI and Agentic AI to empower your future
-                  We help forward thinking organizations automate complex tasks using Generative AI and Agentic AI.
-                  Whether it's citizen services, internal operations, or customer support we make work smarter, faster, and easier.
+                  Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools.
                 </Typography>
 
               </motion.div>

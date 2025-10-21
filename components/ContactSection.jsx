@@ -13,12 +13,12 @@ const ContactSection = () => {
         {
             icon: <MapPin className="h-5 w-5" />,
             title: "Address",
-            details: "Kerkhofstraat 25, 2840 Rumst , Belgium",
+            details: "Rumst, Antwerp 2840, Belgium",
         },
         {
             icon: <Mail className="h-5 w-5" />,
             title: "Email Us",
-            details: "info@optimaize.be",
+            details: "info@moworks",
         },
         // {
         //     icon: <Phone className="h-5 w-5" />,
@@ -184,18 +184,19 @@ const ContactSection = () => {
 
                                 </Box>
 
-                                <Box className="aspect-video rounded-lg overflow-hidden shadow-md mt-6">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d626.6023325204063!2d4.4307589!3d51.0824529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3efee4cb966bd%3A0x8f2be00c775808a!2sKerkhofstraat%2025%2C%202840%20Rumst%2C%20Belgium!5e0!3m2!1sen!2s!4v1754224357080!5m2!1sen!2s"
-                                        width="100%"
-                                        height="100%"
-                                        style={{ border: 0 }}
-                                        allowFullScreen
-                                        loading="lazy"
-                                        referrerPolicy="no-referrer-when-downgrade"
-                                        title="Office Location"
-                                    ></iframe>
-                                </Box>
+                           <Box className="aspect-video rounded-lg overflow-hidden shadow-md mt-6">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2467.183425346383!2d4.428544215945878!3d51.082523879572154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3efee4cb966bd%3A0x8f2be00c775808a!2s51.0825206%2C%204.4311191!5e0!3m2!1sen!2s!4v1697647195675!5m2!1sen!2s"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Office Location"
+  ></iframe>
+</Box>
+
                             </Box>
 
                         </Grid>
