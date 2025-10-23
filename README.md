@@ -14,6 +14,10 @@ pnpm dev
 bun dev
 ```
 
+<img width="2560" height="8366" alt="Mo_Works" src="https://github.com/user-attachments/assets/abaf8694-eef4-40b9-a635-717cfd08c0c1" />
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
