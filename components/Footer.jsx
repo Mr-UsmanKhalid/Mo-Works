@@ -83,7 +83,7 @@ const Footer = () => {
                                 <Typography variant='body1' sx={{ fontWeight: 500 }}>Services</Typography>
                                 <ul className="space-y-2">
                                     {[
-                                        "Microsoft Fabric", "Synapse Data Warehousing", "Synapse Data Engineering", "Synapse Data Science","Power BI & Data Assets","Power Automate","Power Apps","Corporate Trainings",
+                                        "Agile Transformation","Data Engineering","AI & Intelligent Solutions"
                                     ].map((item) => (
                                         <li key={item}>
                                             <Link

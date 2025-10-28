@@ -63,11 +63,18 @@ const AboutSection = () => {
                                 mx: 'auto'
                             }}
                         >
-                            Mo Works helps businesses accelerate their digital transformation through expertise in Agile Transformation, Project Management, and Big Data & Business Intelligence.
+                           We are a boutique IT consultancy specializing in Agile transformation, Data Engineering, and AI solutions. Our mission is to help organizations become faster, smarter, and more adaptable in an ever-evolving digital world. 
 
-We empower teams to embrace agility, speed, and innovation while unlocking the power of data through tools like Power BI, Power Apps, Power Automate, Data Warehousing, and Data Analysis.
+We believe that technology should empower people to make better decisions, deliver faster, and innovate with confidence. By combining Agile principles, modern data architectures, and responsible AI practices, we enable our clients to turn complexity into clarity — and insight into impact. 
 
-Additionally, we offer training and skill development programs to build agile capabilities and data-driven proficiency for sustainable growth.
+From redefining delivery models to building intelligent data pipelines and deploying AI-powered applications, we partner closely with teams to design solutions that create measurable business value. 
+
+Agility. Data. AI. Transformation. 
+It’s not just what we do — it’s how we think. 
+
+Shape 
+
+Perfect — here’s your refined “Agile Transformation Services” section with the added emphasis on your certified trainers and practitioners under Why Partner With Us. 
                         </Typography>
 
                     </Box>

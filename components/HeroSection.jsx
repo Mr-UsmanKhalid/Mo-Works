@@ -113,21 +113,18 @@ const HeroSection = () => {
                 transition={{ duration: 0.8 }}
                 className="text-center"
               >
-                <Typography
-                  variant="h2"
-                  component="h1"
-                  sx={{
-                    fontWeight: 'bold',
-                    mb: 3,
-                    color: theme.palette.primary.main,
-                    fontSize: { xs: '2.5rem', md: '3rem', lg: '3.5rem' },
-                    lineHeight: 1.2,
-                    zIndex: 50
-                  }}
-                >
-                  Mo Works
+                
+                <Typography variant="h6" sx={{
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  display: 'flex',
+                  mb: 4,
+                  color: theme.palette.primary.main,
+                  lineHeight: 1.2,
+                  zIndex: 50
+                }}>
+                  <img src='/logo.png' className="h-30 w-30" />
                 </Typography>
-
                 <Typography
                   variant="h6"
                   sx={{
@@ -152,4 +149,3 @@ const HeroSection = () => {
 }
 
 export default HeroSection
- 
