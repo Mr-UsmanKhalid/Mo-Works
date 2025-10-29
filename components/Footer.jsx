@@ -17,7 +17,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="py-24 bg-[#F5F5F580]">
+            <footer className="py-12 bg-[#F5F5F580]">
                 <Container maxWidth='lg'>
                     <Grid container spacing={4}>
                         <Grid item size={{ xs: 12, md: 3 }}>
@@ -29,7 +29,11 @@ const Footer = () => {
                                         <Typography sx={{ fontSize: '16px',fontWeight:'600', color: theme.palette.primary.main, }}>Mo Works</Typography>
                                     </Link>
 
-                                    <Typography variant='body2' component='p'>
+                                    <Typography sx={{
+                                        textAlign: 'justify',
+                                        maxWidth: '700px',
+                                        mx: 'auto'
+                                    }} variant='body2' component='p'>
                                         Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools.
                                     </Typography>
                                 </Box>
@@ -105,7 +109,7 @@ const Footer = () => {
                                     <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}> Address : Kerkhofstraat 25 Rumst</Typography>
                                     <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>Rumst, Belgium</Typography>
                                     <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>VAT : BE0780.426.960</Typography>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>mail : info@moworks</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>mail : info@moworks.be</Typography>
                                     {/* <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>123 Business Avenue</Typography> */}
 
                                     {/* <p>123 Business Avenue</p> */}
@@ -118,11 +122,15 @@ const Footer = () => {
 
                     </Grid>
 
-                    <Divider sx={{ mt: 5 }} />
+                    <Divider sx={{ mt: 3 }} />
 
-                    <Box sx={{ pt: 4, display: 'flex', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'space-between', alignItems: 'center' }}>
+                    <Box sx={{ pt: 4,
+                            display: 'flex',
+                            flexDirection: { xs: 'column', md: 'row' },
+                            justifyContent: 'space-between',
+                            alignItems: 'center' }}>
                         <Typography variant='body2' sx={{ color: 'text.secondary' }}>© {currentYear} Mo-Works. All rights reserved.</Typography>
-                        <Box sx={{ display: 'flex', gap: 3 }}>
+                        <Box sx={{ display: 'flex', gap: 3 , mt: { xs: 2, md: 0 }}}>
                             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map(
                                 (item) => (
                                     <Link

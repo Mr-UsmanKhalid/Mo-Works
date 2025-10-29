@@ -58,6 +58,7 @@ const AboutSection = () => {
 
                         <Typography variant='body1' component='p'
                             sx={{
+                                textAlign: 'justify',
                                 color: 'text.secondary',
                                 maxWidth: '700px',
                                 mx: 'auto'
@@ -65,16 +66,16 @@ const AboutSection = () => {
                         >
                            We are a boutique IT consultancy specializing in Agile transformation, Data Engineering, and AI solutions. Our mission is to help organizations become faster, smarter, and more adaptable in an ever-evolving digital world. 
 
-We believe that technology should empower people to make better decisions, deliver faster, and innovate with confidence. By combining Agile principles, modern data architectures, and responsible AI practices, we enable our clients to turn complexity into clarity — and insight into impact. 
+We believe that technology should empower people to make better decisions, deliver faster, and innovate with confidence. By combining Agile principles, modern data architectures, and responsible AI practices, we enable our clients to turn complexity into clarity  and insight into impact. 
 
 From redefining delivery models to building intelligent data pipelines and deploying AI-powered applications, we partner closely with teams to design solutions that create measurable business value. 
 
 Agility. Data. AI. Transformation. 
-It’s not just what we do — it’s how we think. 
+It’s not just what we do  it’s how we think. 
 
 Shape 
 
-Perfect — here’s your refined “Agile Transformation Services” section with the added emphasis on your certified trainers and practitioners under Why Partner With Us. 
+Perfect  here’s your refined “Agile Transformation Services” section with the added emphasis on your certified trainers and practitioners under Why Partner With Us. 
                         </Typography>
 
                     </Box>

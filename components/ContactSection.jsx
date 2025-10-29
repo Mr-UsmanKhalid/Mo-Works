@@ -18,7 +18,7 @@ const ContactSection = () => {
         {
             icon: <Mail className="h-5 w-5" />,
             title: "Email Us",
-            details: "info@moworks",
+            details: "info@moworks.be",
         },
         // {
         //     icon: <Phone className="h-5 w-5" />,

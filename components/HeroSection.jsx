@@ -118,19 +118,25 @@ const HeroSection = () => {
                   display: 'flex',
                   flexDirection: 'column',
                   alignItems: 'center',
-                  mb: 4,
+                  mb: 1,
                   zIndex: 50
                 }}>
                   <img src='/logo.png' className="h-30 w-30" />
-                  <Box
+                            <Typography
+                    variant="subtitle1"
                     sx={{
-                      width: '200px',
-                      height: '4px',
-                      backgroundColor: '#2D7A6E',
-                      borderRadius: '2px',
-                      mt: 1
+                      mt: 1.5,
+                      fontSize: { xs: '14px', sm: '16px' },
+                      fontWeight: 600,
+                      fontStyle: 'italic',
+                      fontWeight: 500,
+                      color: theme.palette.primary.main,
+                      letterSpacing: 0.6,
+                      textTransform: 'uppercase',
                     }}
-                  />
+                  >
+                    Transforming Data, Powering AI, Accelerating Agility
+                  </Typography>
                 </Box>
 
                 <Typography
