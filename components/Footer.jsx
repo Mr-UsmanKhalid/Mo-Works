@@ -102,8 +102,8 @@ const Footer = () => {
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                                 <Typography variant='body1' sx={{ fontWeight: 500 }}>Contact</Typography>
                                 <Box sx={{ fontStyle: 'normal' }}>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}> Address : Rumst, Antwerp 2840</Typography>
-                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>Rumst , Belgium</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}> Address : Kerkhofstraat 25 Rumst</Typography>
+                                    <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>Rumst, Belgium</Typography>
                                     <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>VAT : BE0780.426.960</Typography>
                                     <Typography variant='body2' component='p' sx={{ color: 'text.secondary', mt: 2 }}>mail : info@moworks</Typography>
                                     {/* <Typography variant='body2' component='p' sx={{ color: 'text.secondary' }}>123 Business Avenue</Typography> */}

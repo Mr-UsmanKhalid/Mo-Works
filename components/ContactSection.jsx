@@ -13,7 +13,7 @@ const ContactSection = () => {
         {
             icon: <MapPin className="h-5 w-5" />,
             title: "Address",
-            details: "Rumst, Antwerp 2840, Belgium",
+            details: "Kerkhofstraat 25 Rumst, Belgium",
         },
         {
             icon: <Mail className="h-5 w-5" />,
@@ -185,16 +185,16 @@ const ContactSection = () => {
                                 </Box>
 
                            <Box className="aspect-video rounded-lg overflow-hidden shadow-md mt-6">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2467.183425346383!2d4.428544215945878!3d51.082523879572154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3efee4cb966bd%3A0x8f2be00c775808a!2s51.0825206%2C%204.4311191!5e0!3m2!1sen!2s!4v1697647195675!5m2!1sen!2s"
-    width="100%"
-    height="100%"
-    style={{ border: 0 }}
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    title="Office Location"
-  ></iframe>
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0977629424647!2d-122.41941508468188!3d37.77492977975903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa519bf8358470de0!2sMo%20Works!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Office Location"
+></iframe>
 </Box>
 
                             </Box>

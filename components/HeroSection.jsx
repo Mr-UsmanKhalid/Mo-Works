@@ -1,6 +1,6 @@
 'use client'
 
-import { Container, Grid, Typography, useTheme } from '@mui/material'
+import { Container, Grid, Typography, useTheme, Box } from '@mui/material'
 import React from 'react'
 import { motion } from 'framer-motion';
 
@@ -114,17 +114,25 @@ const HeroSection = () => {
                 className="text-center"
               >
                 
-                <Typography variant="h6" sx={{
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                <Box sx={{
                   display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
                   mb: 4,
-                  color: theme.palette.primary.main,
-                  lineHeight: 1.2,
                   zIndex: 50
                 }}>
                   <img src='/logo.png' className="h-30 w-30" />
-                </Typography>
+                  <Box
+                    sx={{
+                      width: '200px',
+                      height: '4px',
+                      backgroundColor: '#2D7A6E',
+                      borderRadius: '2px',
+                      mt: 1
+                    }}
+                  />
+                </Box>
+
                 <Typography
                   variant="h6"
                   sx={{

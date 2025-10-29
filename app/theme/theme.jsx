@@ -3,13 +3,13 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
     palette: {
         primary: {
-            main: "#008000",        // Primary brand color
+            main: "#2D7A6E",        // Primary brand color
             light: "#7E67FB",       // Optional lighter shade
             dark: "#3A2BC6",        // Optional darker shade
             contrastText: "#ffffff", // Text on primary buttons
         },
         secondary: {
-            main: "#008000",        // Also use brand purple for secondary
+            main: "#2D7A6E",        // Also use brand purple for secondary
             light: "#7E67FB",
             dark: "#3A2BC6",
             contrastText: "#ffffff",
@@ -68,11 +68,11 @@ const theme = createTheme({
                     fontSize: '16px',
                     position: 'relative',
                     '&:hover': {
-                        color: '#5139FA',
+                        color: '#2D7A6E',
                         backgroundColor: 'transparent',
                     },
                     '&.Mui-selected': {
-                        color: '#5139FA',
+                        color: '#2D7A6E',
                         fontWeight: 'bold',
                         backgroundColor: 'transparent',
                         '&:after': {
@@ -93,7 +93,7 @@ const theme = createTheme({
                         transform: 'translateX(-50%) scaleX(0)',
                         width: '80%',
                         height: '2px',
-                        backgroundColor: '#008000',
+                        backgroundColor: '#2D7A6E',
                         transition: 'transform 0.3s ease',
                     },
                     '&:hover:after': {
@@ -105,7 +105,7 @@ const theme = createTheme({
         MuiChip: {
             styleOverrides: {
                 outlined: {
-                    borderColor: '#008000',
+                    borderColor: '#2D7A6E',
                     // color: '#5139FA',     
                 },
             },
