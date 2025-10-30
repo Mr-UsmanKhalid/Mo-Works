@@ -43,7 +43,7 @@ Why Partner With Us: Certified Expertise | Practical Experience | Tailored Appro
         'Empowering businesses with scalable data engineering from architecture to real-time analytics and AI-ready platforms.',
       details: `We design and implement modern data platforms that transform raw information into actionable insights.
 
-1. Data Strategy & Architecture: Aligning data design with your business goals.
+1. Data Strategy & Architecture: Aligning data design and governance with your business goals.
 2. Data Platform Engineering: Building real-time data pipelines and analytics platforms.
 3. Cloud & Hybrid Data Solutions: Creating flexible, cost-efficient cloud and hybrid data ecosystems.
 
@@ -156,12 +156,18 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
                     {service.title}
                   </h3>
 
-                  <p
-                    className="text-gray-600 text-sm leading-relaxed"
-                    style={{ marginBottom: isExpanded ? '1rem' : '3rem' }}
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      color: 'text.secondary',
+                      fontSize: '0.875rem',
+                      lineHeight: '1.6',
+                      mb: isExpanded ? '1rem' : '3rem',
+                      textAlign: 'justify',
+                    }}
                   >
                     {service.description}
-                  </p>
+                  </Typography>
 
                   <button
                     onClick={(e) => handleExpandClick(service.id, e)}
@@ -189,9 +195,16 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
                         animation: 'fadeIn 0.6s ease-in-out',
                       }}
                     >
-                      <p className="text-gray-700 mt-4 leading-relaxed whitespace-pre-line">
+                      <Typography variant="p" component="div"
+                        sx={{
+                          whiteSpace: 'pre-line',
+                          textAlign: 'justify',
+                          color: 'text.secondary',
+                          mt: 2
+                        }}>
                         {service.details}
-                      </p>
+                      </Typography>
+
                     </div>
                   )}
                 </div>

@@ -23,7 +23,7 @@ const Footer = () => {
                         <Grid item size={{ xs: 12, md: 3 }}>
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                                    <Link href="#home" className="flex items-center gap-2 ">
+                                    <Link href="#home" className="flex items-center gap-2">
                                         <img src='/logo.png' className="h-7 w-7" />
                                         {/* <Code className="h-6 w-6 text-[#B91C1C]" /> */}
                                         <Typography sx={{ fontSize: '16px',fontWeight:'600', color: theme.palette.primary.main, }}>Mo Works</Typography>

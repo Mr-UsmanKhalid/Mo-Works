@@ -143,6 +143,7 @@ const HeroSection = () => {
                   variant="h6"
                   sx={{
                     mb: 4,
+                    textAlign: 'justify',
                     color: 'text.secondary',
                     maxWidth: '700px',
                     mx: 'auto',

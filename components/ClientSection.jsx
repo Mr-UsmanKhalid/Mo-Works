@@ -13,12 +13,12 @@ const trustPoints = [
   {
     icon: <Users size={36} />,
     title: "Hands-On Experience",
-    description: "Proven success guiding transformations across industries — helping teams deliver faster and smarter."
+    description: "Proven success guiding transformations across industries helping teams deliver faster and smarter."
   },
   {
     icon: <Brain size={36} />,
     title: "Tailored Approach",
-    description: "No one-size-fits-all — each solution is customized to your goals, culture, and technology landscape."
+    description: "No one-size-fits-all each solution is customized to your goals, culture, and technology landscape."
   },
   {
     icon: <Rocket size={36} />,
@@ -28,7 +28,7 @@ const trustPoints = [
   {
     icon: <Leaf size={36} />,
     title: "Sustainable Change",
-    description: "We build your team’s capability to ensure lasting impact beyond the project."
+    description: "We build your team's capability to ensure lasting impact beyond the project."
   },
   {
     icon: <Shield size={36} />,
@@ -116,7 +116,10 @@ const ClientSection = () => {
                     <Typography
                       variant="body2"
                       color="text.secondary"
-                      sx={{ px: 1 }}
+                      sx={{ 
+                        px: 1,
+                        textAlign: 'justify'
+                      }}
                     >
                       {item.description}
                     </Typography>
