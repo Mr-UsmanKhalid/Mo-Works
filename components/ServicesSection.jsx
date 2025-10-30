@@ -91,7 +91,7 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
           </Typography>
           <Typography variant='body1' component='p'
             sx={{
-              textAlign: 'justify',
+              textAlign: 'center',
               color: 'text.secondary',
               maxWidth: '700px',
               mx: 'auto'
@@ -118,7 +118,12 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
                   flexGrow: isExpanded ? 1 : 0,
                   transition: 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)',
                   cursor: isExpanded ? 'pointer' : 'default',
+
+                  // ✅ Float on top ONLY for desktop/tablet
+                  zIndex: isExpanded && typeof window !== "undefined" && window.innerWidth > 768 ? 10 : "auto",
+                  position: isExpanded && typeof window !== "undefined" && window.innerWidth > 768 ? "relative" : "static",
                 }}
+
               >
                 <div
                   className="p-6 rounded-2xl relative overflow-hidden"
@@ -166,13 +171,13 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
                       bottom: isExpanded ? 'auto' : '16px',
                       backgroundColor: '#DBFFE8',
                       color: service.color,
-                      cursor: 'pointer', 
+                      cursor: 'pointer',
                       hover: {
                         backgroundColor: service.color,
                         color: '#FFFFFF',
                       }
                     }}
-                    
+
                   >
                     {isExpanded ? <X size={18} /> : <ArrowUpRight size={18} />}
                   </button>
