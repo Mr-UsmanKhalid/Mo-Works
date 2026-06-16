@@ -63,5 +63,26 @@
             "title": "Ethische & Verantwoorde AI",
             "description": "Wij geven prioriteit aan eerlijkheid, transparantie en governance in elke AI-opdracht, met vertrouwen en verantwoordelijkheid op elk niveau."
         }
+    },
+    "Contact": {
+        "label": "Contacteer Ons",
+        "title": "Neem Contact Op",
+        "subtitle": "Heeft u een project in gedachten? Neem contact met ons op en laten we samen iets moois creëren.",
+        "formTitle": "Stuur Ons een Bericht",
+        "formSubtitle": "Vul het onderstaande formulier in en wij nemen zo snel mogelijk contact met u op.",
+        "name": "Naam",
+        "namePlaceholder": "Jan Janssen",
+        "email": "E-mail",
+        "emailPlaceholder": "jan@example.com",
+        "subject": "Onderwerp",
+        "subjectPlaceholder": "Onderwerp",
+        "message": "Bericht",
+        "messagePlaceholder": "Hoe kunnen wij u helpen?",
+        "button": "Bericht Verzenden",
+        "infoTitle": "Contactinformatie",
+        "infoSubtitle": "We horen graag van u. Neem contact met ons op via een van de onderstaande kanalen.",
+        "addressTitle": "Adres",
+        "emailTitle": "E-mail Ons",
+        "mapTitle": "Kantoorlocatie"
     }
 }

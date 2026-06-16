@@ -63,5 +63,26 @@
             "title": "Ethical & Responsible AI",
             "description": "We prioritize fairness, transparency, and governance in every AI engagement, ensuring trust and accountability at every level."
         }
+    },
+    "Contact": {
+        "label": "Contact Us",
+        "title": "Get In Touch",
+        "subtitle": "Have a project in mind? Reach out to us and let's create something amazing together.",
+        "formTitle": "Send Us a Message",
+        "formSubtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+        "name": "Name",
+        "namePlaceholder": "John Doe",
+        "email": "Email",
+        "emailPlaceholder": "john@example.com",
+        "subject": "Subject",
+        "subjectPlaceholder": "Subject",
+        "message": "Message",
+        "messagePlaceholder": "How can we help you?",
+        "button": "Send Message",
+        "infoTitle": "Contact Information",
+        "infoSubtitle": "We'd love to hear from you. Get in touch with us through any of the following channels.",
+        "addressTitle": "Address",
+        "emailTitle": "Email Us",
+        "mapTitle": "Office Location"
     }
 }

@@ -63,5 +63,26 @@
             "title": "IA Éthique & Responsable",
             "description": "Nous privilégions l’équité, la transparence et la gouvernance dans chaque mission IA, afin d’assurer confiance et responsabilité à tous les niveaux."
         }
+    },
+    "Contact": {
+        "label": "Contactez Nous",
+        "title": "Entrer en Contact",
+        "subtitle": "Vous avez un projet en tête ? Contactez-nous et créons ensemble quelque chose d’exceptionnel.",
+        "formTitle": "Envoyez-nous un Message",
+        "formSubtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
+        "name": "Nom",
+        "namePlaceholder": "Jean Dupont",
+        "email": "E-mail",
+        "emailPlaceholder": "jean@example.com",
+        "subject": "Sujet",
+        "subjectPlaceholder": "Sujet",
+        "message": "Message",
+        "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+        "button": "Envoyer le Message",
+        "infoTitle": "Informations de Contact",
+        "infoSubtitle": "Nous serions ravis d’échanger avec vous. Contactez-nous via l’un des canaux suivants.",
+        "addressTitle": "Adresse",
+        "emailTitle": "Envoyez-nous un E-mail",
+        "mapTitle": "Localisation du Bureau"
     }
 }
