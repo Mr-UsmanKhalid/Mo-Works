@@ -1,16 +1,18 @@
 {
     "Navbar": {
-    "home": "Home",
-    "about": "Over Ons",
-    "services": "Diensten",
-    "contact": "Contact",
-    "language": "Taal"
-  },
-  "Hero": {
-    "tagline": "Data transformeren, AI versterken, wendbaarheid versnellen",
-    "description": "Mo Works stimuleert digitale transformatie via Agile werkwijzen, projectmanagement en data-intelligentie. Wij ondersteunen bedrijven met sterke teams, datagedreven inzichten en gespecialiseerde trainingen in Agile en Power Platform-tools."
-  }
-  
-  
-
+        "home": "Home",
+        "about": "Over Ons",
+        "services": "Diensten",
+        "contact": "Contact",
+        "language": "Taal"
+    },
+    "Hero": {
+        "tagline": "Data transformeren, AI versterken, wendbaarheid versnellen",
+        "description": "Mo Works stimuleert digitale transformatie via Agile werkwijzen, projectmanagement en data-intelligentie. Wij ondersteunen bedrijven met sterke teams, datagedreven inzichten en gespecialiseerde trainingen in Agile en Power Platform-tools."
+    },
+    "About": {
+        "label": "Over Ons",
+        "title": "Wie we zijn",
+        "description": "Wij zijn een boutique IT-consultancy gespecialiseerd in Agile transformatie, Data Engineering en AI-oplossingen. Onze missie is om organisaties sneller, slimmer en flexibeler te maken in een voortdurend veranderende digitale wereld.\n\nWij geloven dat technologie mensen moet helpen om betere beslissingen te nemen, sneller te leveren en met vertrouwen te innoveren. Door Agile principes, moderne data-architecturen en verantwoorde AI-praktijken te combineren, helpen wij onze klanten complexiteit om te zetten in duidelijkheid en inzichten in impact.\n\nVan het herdefiniëren van deliverymodellen tot het bouwen van intelligente datapijplijnen en het implementeren van AI-gedreven applicaties: wij werken nauw samen met teams om oplossingen te ontwerpen die meetbare bedrijfswaarde creëren.\n\nAgility. Data. AI. Transformatie. Het is niet alleen wat we doen   het is hoe we denken."
+    }
 }

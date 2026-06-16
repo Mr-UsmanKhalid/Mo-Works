@@ -1,13 +1,18 @@
 {
-  "Navbar": {
-    "home": "Accueil",
-    "about": "À Propos",
-    "services": "Services",
-    "contact": "Contact",
-    "language": "Langue"
-  },
-  "Hero": {
-    "tagline": "Transformer les données, renforcer l’IA, accélérer l’agilité",
-    "description": "Mo Works accompagne la transformation numérique grâce aux pratiques Agile, à la gestion de projet et à l’intelligence des données. Nous aidons les entreprises avec des équipes performantes, des insights basés sur les données et des formations spécialisées sur Agile et Power Platform."
-  }
+    "Navbar": {
+        "home": "Accueil",
+        "about": "À Propos",
+        "services": "Services",
+        "contact": "Contact",
+        "language": "Langue"
+    },
+    "Hero": {
+        "tagline": "Transformer les données, renforcer l’IA, accélérer l’agilité",
+        "description": "Mo Works accompagne la transformation numérique grâce aux pratiques Agile, à la gestion de projet et à l’intelligence des données. Nous aidons les entreprises avec des équipes performantes, des insights basés sur les données et des formations spécialisées sur Agile et Power Platform."
+    },
+    "About": {
+        "label": "À Propos",
+        "title": "Qui nous sommes",
+        "description": "Nous sommes une société de conseil IT boutique spécialisée dans la transformation Agile, le Data Engineering et les solutions d’IA. Notre mission est d’aider les organisations à devenir plus rapides, plus intelligentes et plus adaptables dans un monde numérique en constante évolution.\n\nNous pensons que la technologie doit permettre aux équipes de prendre de meilleures décisions, de livrer plus rapidement et d’innover avec confiance. En combinant les principes Agile, les architectures de données modernes et des pratiques d’IA responsables, nous aidons nos clients à transformer la complexité en clarté et les insights en impact.\n\nDe la redéfinition des modèles de delivery à la création de pipelines de données intelligents et au déploiement d’applications alimentées par l’IA, nous collaborons étroitement avec les équipes pour concevoir des solutions qui créent une valeur métier mesurable.\n\nAgilité. Données. IA. Transformation. Ce n’est pas seulement ce que nous faisons   c’est notre façon de penser."
+    }
 }

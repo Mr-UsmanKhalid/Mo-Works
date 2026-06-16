@@ -1,13 +1,18 @@
 {
-  "Navbar": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "contact": "Contact",
-    "language": "Language"
-  },
-  "Hero": {
-    "tagline": "Transforming Data, Powering AI, Accelerating Agility",
-    "description": "Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools."
-  }
+    "Navbar": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "Hero": {
+        "tagline": "Transforming Data, Powering AI, Accelerating Agility",
+        "description": "Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools."
+    },
+    "About": {
+        "label": "About Us",
+        "title": "Who we are",
+        "description": "We are a boutique IT consultancy specializing in Agile transformation, Data Engineering, and AI solutions. Our mission is to help organizations become faster, smarter, and more adaptable in an ever-evolving digital world.\n\nWe believe that technology should empower people to make better decisions, deliver faster, and innovate with confidence. By combining Agile principles, modern data architectures, and responsible AI practices, we enable our clients to turn complexity into clarity and insight into impact.\n\nFrom redefining delivery models to building intelligent data pipelines and deploying AI-powered applications, we partner closely with teams to design solutions that create measurable business value.\n\nAgility. Data. AI. Transformation. It’s not just what we do   it’s how we think."
+    }
 }
