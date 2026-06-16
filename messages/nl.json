@@ -84,5 +84,24 @@
         "addressTitle": "Adres",
         "emailTitle": "E-mail Ons",
         "mapTitle": "Kantoorlocatie"
+    },
+    "Footer": {
+        "description": "Mo Works stimuleert digitale transformatie via Agile werkwijzen, projectmanagement en data-intelligentie. Wij ondersteunen bedrijven met sterke teams, datagedreven inzichten en gespecialiseerde trainingen in Agile- en Power Platform-tools.",
+        "quickLinks": "Snelle Links",
+        "home": "Home",
+        "about": "Over Ons",
+        "services": "Diensten",
+        "contact": "Contact",
+        "servicesTitle": "Diensten",
+        "agile": "Agile Transformatie",
+        "dataEngineering": "Data Engineering",
+        "aiSolutions": "AI & Intelligente Oplossingen",
+        "contactTitle": "Contact",
+        "address": "Adres",
+        "email": "E-mail",
+        "rights": "Alle rechten voorbehouden.",
+        "privacyPolicy": "Privacybeleid",
+        "termsOfService": "Servicevoorwaarden",
+        "cookiePolicy": "Cookiebeleid"
     }
 }

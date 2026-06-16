@@ -84,5 +84,24 @@
         "addressTitle": "Address",
         "emailTitle": "Email Us",
         "mapTitle": "Office Location"
+    },
+    "Footer": {
+        "description": "Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools.",
+        "quickLinks": "Quick Links",
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact",
+        "servicesTitle": "Services",
+        "agile": "Agile Transformation",
+        "dataEngineering": "Data Engineering",
+        "aiSolutions": "AI & Intelligent Solutions",
+        "contactTitle": "Contact",
+        "address": "Address",
+        "email": "Email",
+        "rights": "All rights reserved.",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "cookiePolicy": "Cookie Policy"
     }
 }

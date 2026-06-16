@@ -84,5 +84,24 @@
         "addressTitle": "Adresse",
         "emailTitle": "Envoyez-nous un E-mail",
         "mapTitle": "Localisation du Bureau"
+    },
+    "Footer": {
+        "description": "Mo Works accompagne la transformation numérique grâce aux pratiques Agile, à la gestion de projet et à l’intelligence des données. Nous aidons les entreprises avec des équipes performantes, des insights basés sur les données et des formations spécialisées sur Agile et Power Platform.",
+        "quickLinks": "Liens Rapides",
+        "home": "Accueil",
+        "about": "À Propos",
+        "services": "Services",
+        "contact": "Contact",
+        "servicesTitle": "Services",
+        "agile": "Transformation Agile",
+        "dataEngineering": "Data Engineering",
+        "aiSolutions": "IA & Solutions Intelligentes",
+        "contactTitle": "Contact",
+        "address": "Adresse",
+        "email": "E-mail",
+        "rights": "Tous droits réservés.",
+        "privacyPolicy": "Politique de Confidentialité",
+        "termsOfService": "Conditions d’Utilisation",
+        "cookiePolicy": "Politique Relative aux Cookies"
     }
 }
