@@ -14,5 +14,25 @@
         "label": "À Propos",
         "title": "Qui nous sommes",
         "description": "Nous sommes une société de conseil IT boutique spécialisée dans la transformation Agile, le Data Engineering et les solutions d’IA. Notre mission est d’aider les organisations à devenir plus rapides, plus intelligentes et plus adaptables dans un monde numérique en constante évolution.\n\nNous pensons que la technologie doit permettre aux équipes de prendre de meilleures décisions, de livrer plus rapidement et d’innover avec confiance. En combinant les principes Agile, les architectures de données modernes et des pratiques d’IA responsables, nous aidons nos clients à transformer la complexité en clarté et les insights en impact.\n\nDe la redéfinition des modèles de delivery à la création de pipelines de données intelligents et au déploiement d’applications alimentées par l’IA, nous collaborons étroitement avec les équipes pour concevoir des solutions qui créent une valeur métier mesurable.\n\nAgilité. Données. IA. Transformation. Ce n’est pas seulement ce que nous faisons   c’est notre façon de penser."
+    },
+    "Services": {
+        "label": "Nos Services",
+        "title": "Ce que nous proposons",
+        "subtitle": "Nous proposons la Transformation Agile, le Data Engineering ainsi que des Solutions IA & Intelligentes pour aider les entreprises à innover, croître et rester compétitives à l’ère numérique.",
+        "agile": {
+            "title": "Transformation Agile",
+            "description": "Nous accompagnons les organisations dans l’adoption de l’Agile comme état d’esprit afin de favoriser la rapidité, l’adaptabilité et la collaboration entre les équipes.",
+            "details": "Dans un monde où la rapidité, l’adaptabilité et la collaboration sont essentielles au succès, nous aidons les organisations à adopter l’Agile comme un état d’esprit et non comme une simple méthodologie. Que vous commenciez votre parcours Agile ou que vous souhaitiez l’étendre à l’échelle de l’entreprise, nous vous accompagnons à chaque étape de votre transformation.\n\n1. Transformation Agile : Nous concevons et déployons avec vous une stratégie de transformation Agile adaptée à vos objectifs métier.\n\n2. Adoption Agile : Nous proposons des formations et du coaching pour intégrer les principes Agile ainsi que des frameworks tels que Scrum, Kanban et Lean.\n\n3. Adoption Agile à Grande Échelle : Nous aidons les entreprises à déployer l’Agile à l’échelle avec des approches telles que SAFe, LeSS ou le modèle Spotify.\n\nPourquoi nous choisir : Expertise Certifiée | Expérience Terrain | Approche Sur Mesure | Changement Durable"
+        },
+        "data": {
+            "title": "Data Engineering",
+            "description": "Nous aidons les entreprises grâce à des solutions de data engineering évolutives, de l’architecture aux analyses en temps réel et aux plateformes prêtes pour l’IA.",
+            "details": "Nous concevons et mettons en œuvre des plateformes de données modernes qui transforment les données brutes en informations exploitables.\n\n1. Stratégie & Architecture des Données : Alignement de la conception des données et de leur gouvernance avec vos objectifs métier.\n\n2. Ingénierie des Plateformes de Données : Création de pipelines de données en temps réel et de plateformes analytiques.\n\n3. Solutions Cloud & Hybrides : Mise en place d’écosystèmes de données cloud et hybrides flexibles et rentables.\n\nPourquoi nous choisir : Expertise Certifiée | Livraison de Bout en Bout | Plateformes Pérennes | Des Données au Service d’un Objectif"
+        },
+        "ai": {
+            "title": "IA & Solutions Intelligentes",
+            "description": "Nous aidons les entreprises à passer de l’expérimentation à un impact réel grâce à des solutions d’IA innovantes, évolutives, sécurisées et responsables.",
+            "details": "Nous transformons l’IA d’expériences isolées en capacités stratégiques et évolutives pour l’entreprise.\n\n1. Stratégie IA & Adoption : Élaboration d’une feuille de route IA responsable et orientée valeur.\n\n2. Machine Learning & Analyse : Conception de modèles prédictifs et d’insights avancés.\n\n3. IA Générative & Automatisation : Utilisation des LLM pour automatiser et améliorer les processus métier.\n\n4. MLOps & Infrastructure IA : Garantie d’un déploiement fiable et d’une gouvernance efficace.\n\nPourquoi nous choisir : Professionnels IA Certifiés | Expertise Multisectorielle | IA Éthique et Responsable"
+        }
     }
 }

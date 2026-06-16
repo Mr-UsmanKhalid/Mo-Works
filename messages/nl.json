@@ -14,5 +14,25 @@
         "label": "Over Ons",
         "title": "Wie we zijn",
         "description": "Wij zijn een boutique IT-consultancy gespecialiseerd in Agile transformatie, Data Engineering en AI-oplossingen. Onze missie is om organisaties sneller, slimmer en flexibeler te maken in een voortdurend veranderende digitale wereld.\n\nWij geloven dat technologie mensen moet helpen om betere beslissingen te nemen, sneller te leveren en met vertrouwen te innoveren. Door Agile principes, moderne data-architecturen en verantwoorde AI-praktijken te combineren, helpen wij onze klanten complexiteit om te zetten in duidelijkheid en inzichten in impact.\n\nVan het herdefiniëren van deliverymodellen tot het bouwen van intelligente datapijplijnen en het implementeren van AI-gedreven applicaties: wij werken nauw samen met teams om oplossingen te ontwerpen die meetbare bedrijfswaarde creëren.\n\nAgility. Data. AI. Transformatie. Het is niet alleen wat we doen   het is hoe we denken."
+    },
+    "Services": {
+        "label": "Onze Diensten",
+        "title": "Wat wij aanbieden",
+        "subtitle": "Wij bieden Agile Transformatie, Data Engineering en AI & Intelligente Oplossingen om bedrijven te helpen innoveren, groeien en voorop te blijven in het digitale tijdperk.",
+        "agile": {
+            "title": "Agile Transformatie",
+            "description": "Wij begeleiden organisaties bij het omarmen van Agile als een mindset die snelheid, aanpassingsvermogen en samenwerking binnen teams stimuleert.",
+            "details": "In een wereld waar snelheid, aanpassingsvermogen en samenwerking de sleutel tot succes zijn, helpen wij organisaties Agile te omarmen als een mindset en niet slechts als een methodologie. Of u nu de eerste stappen zet richting Agile werken of Agile wilt opschalen binnen wereldwijde teams, wij begeleiden u tijdens elke fase van uw transformatietraject.\n\n1. Agile Transformatie: Wij werken samen met u aan een op maat gemaakte Agile-transformatiestrategie die aansluit bij uw bedrijfsdoelstellingen.\n\n2. Agile Adoptie: Wij bieden training en coaching om Agile-principes en frameworks zoals Scrum, Kanban en Lean te verankeren.\n\n3. Scaled Agile Adoptie: Wij helpen Agile op ondernemingsniveau op te schalen met frameworks zoals SAFe, LeSS of het Spotify-model.\n\nWaarom kiezen voor ons: Gecertificeerde Expertise | Praktische Ervaring | Maatwerk Aanpak | Duurzame Verandering"
+        },
+        "data": {
+            "title": "Data Engineering",
+            "description": "Wij versterken bedrijven met schaalbare data-engineering, van architectuur tot realtime analyses en AI-klare platformen.",
+            "details": "Wij ontwerpen en implementeren moderne dataplatformen die ruwe gegevens omzetten in bruikbare inzichten.\n\n1. Datastrategie & Architectuur: Het afstemmen van dataontwerp en governance op uw bedrijfsdoelstellingen.\n\n2. Data Platform Engineering: Het bouwen van realtime datapijplijnen en analyseplatformen.\n\n3. Cloud & Hybride Dataoplossingen: Het creëren van flexibele en kostenefficiënte cloud- en hybride dataomgevingen.\n\nWaarom kiezen voor ons: Gecertificeerde Expertise | End-to-End Levering | Toekomstbestendige Platformen | Data met Doel"
+        },
+        "ai": {
+            "title": "AI & Intelligente Oplossingen",
+            "description": "Wij helpen bedrijven de stap te zetten van experimentatie naar echte impact met innovatieve, schaalbare, veilige en ethische AI-oplossingen.",
+            "details": "Wij transformeren AI van losse experimenten naar schaalbare, bedrijfskritische capaciteiten.\n\n1. AI Strategie & Enablement: Het opbouwen van een verantwoorde en waardegerichte AI-roadmap.\n\n2. Machine Learning & Analytics: Het ontwerpen van voorspellende modellen en waardevolle inzichten.\n\n3. Generatieve AI & Automatisering: Het inzetten van LLM's om processen te automatiseren en te verbeteren.\n\n4. MLOps & AI Infrastructuur: Het waarborgen van betrouwbare implementatie en governance.\n\nWaarom kiezen voor ons: Gecertificeerde AI Professionals | Expertise in Verschillende Domeinen | Ethische en Verantwoorde AI"
+        }
     }
 }

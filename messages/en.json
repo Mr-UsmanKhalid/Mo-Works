@@ -14,5 +14,25 @@
         "label": "About Us",
         "title": "Who we are",
         "description": "We are a boutique IT consultancy specializing in Agile transformation, Data Engineering, and AI solutions. Our mission is to help organizations become faster, smarter, and more adaptable in an ever-evolving digital world.\n\nWe believe that technology should empower people to make better decisions, deliver faster, and innovate with confidence. By combining Agile principles, modern data architectures, and responsible AI practices, we enable our clients to turn complexity into clarity and insight into impact.\n\nFrom redefining delivery models to building intelligent data pipelines and deploying AI-powered applications, we partner closely with teams to design solutions that create measurable business value.\n\nAgility. Data. AI. Transformation. It’s not just what we do   it’s how we think."
+    },
+    "Services": {
+        "label": "Our Services",
+        "title": "What we Offer",
+        "subtitle": "We offer Agile Transformation, Data Engineering, and AI & Intelligent Solutions to help businesses innovate, grow, and stay ahead in the digital era.",
+        "agile": {
+            "title": "Agile Transformation",
+            "description": "We guide organizations in adopting Agile as a mindset: driving speed, adaptability, and collaboration across teams.",
+            "details": "In a world where speed, adaptability, and collaboration drive success, we help organizations embrace Agile as a mindset: not just a methodology. Whether you're taking your first steps toward agility or scaling across global teams, we guide you through every stage of your transformation journey.\n\n1. Agile Transformation: We partner with you to design and deliver a tailored Agile transformation strategy that aligns with your business goals.\n\n2. Agile Adoption: We provide training and coaching to embed Agile principles and frameworks like Scrum, Kanban, and Lean.\n\n3. Scaled Agile Adoption: We help scale Agile across enterprises using SAFe, LeSS, or the Spotify model.\n\nWhy Partner With Us: Certified Expertise | Practical Experience | Tailored Approach | Sustainable Change"
+        },
+        "data": {
+            "title": "Data Engineering",
+            "description": "Empowering businesses with scalable data engineering from architecture to real-time analytics and AI-ready platforms.",
+            "details": "We design and implement modern data platforms that transform raw information into actionable insights.\n\n1. Data Strategy & Architecture: Aligning data design and governance with your business goals.\n\n2. Data Platform Engineering: Building real-time data pipelines and analytics platforms.\n\n3. Cloud & Hybrid Data Solutions: Creating flexible, cost-efficient cloud and hybrid data ecosystems.\n\nWhy Partner With Us: Certified Expertise | End-to-End Delivery | Future-Ready Platforms | Data with Purpose"
+        },
+        "ai": {
+            "title": "AI & Intelligent Solutions",
+            "description": "We help businesses move from experimentation to real impact through innovative, scalable, secure, and ethical AI solutions.",
+            "details": "We turn AI from isolated experiments into scalable, business-critical capabilities.\n\n1. AI Strategy & Enablement: Building a responsible, value-driven AI roadmap.\n\n2. Machine Learning & Analytics: Designing predictive models and insights.\n\n3. Generative AI & Automation: Using LLMs to automate and enhance workflows.\n\n4. MLOps & AI Infrastructure: Ensuring reliable deployment and governance.\n\nWhy Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethical & Responsible AI"
+        }
     }
 }

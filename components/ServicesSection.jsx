@@ -3,8 +3,12 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Workflow, BrainCircuit, DatabaseZap, ArrowUpRight, X } from 'lucide-react'
 import { Badge, Box, Chip, Container, Grid, Typography, useTheme } from '@mui/material'
 import { color } from 'framer-motion'
+import { useTranslations } from "next-intl";
 
 const ServicesSection = () => {
+
+  const t = useTranslations("Services");
+  const theme = useTheme();
   const [expandedId, setExpandedId] = useState(null)
 
   const handleCardClick = (id) => {
@@ -19,54 +23,33 @@ const ServicesSection = () => {
     setExpandedId(expandedId === id ? null : id)
   }
 
+
   const servicesData = [
     {
       id: 1,
       icon: Workflow,
-      title: 'Agile Transformation',
-      description:
-        'We guide organizations in adopting Agile as a mindset: driving speed, adaptability, and collaboration across teams.',
-      details: `In a world where speed, adaptability, and collaboration drive success, we help organizations embrace Agile as a mindset: not just a methodology. Whether you're taking your first steps toward agility or scaling across global teams, we guide you through every stage of your transformation journey.
-
-1. Agile Transformation: We partner with you to design and deliver a tailored Agile transformation strategy that aligns with your business goals. 
-2. Agile Adoption: We provide training and coaching to embed Agile principles and frameworks like Scrum, Kanban, and Lean.
-3. Scaled Agile Adoption: We help scale Agile across enterprises using SAFe, LeSS, or the Spotify model.
-
-Why Partner With Us: Certified Expertise | Practical Experience | Tailored Approach | Sustainable Change`,
-      color: '#10B981',
+      title: t("agile.title"),
+      description: t("agile.description"),
+      details: t("agile.details"),
+      color: "#10B981",
     },
     {
       id: 2,
       icon: DatabaseZap,
-      title: 'Data Engineering',
-      description:
-        'Empowering businesses with scalable data engineering from architecture to real-time analytics and AI-ready platforms.',
-      details: `We design and implement modern data platforms that transform raw information into actionable insights.
-
-1. Data Strategy & Architecture: Aligning data design and governance with your business goals.
-2. Data Platform Engineering: Building real-time data pipelines and analytics platforms.
-3. Cloud & Hybrid Data Solutions: Creating flexible, cost-efficient cloud and hybrid data ecosystems.
-
-Why Partner With Us: Certified Expertise | End-to-End Delivery | Future-Ready Platforms | Data with Purpose`,
-      color: '#10B981',
+      title: t("data.title"),
+      description: t("data.description"),
+      details: t("data.details"),
+      color: "#10B981",
     },
     {
       id: 3,
       icon: BrainCircuit,
-      title: 'AI & Intelligent Solutions',
-      description:
-        'We help businesses move from experimentation to real impact through innovative, scalable, secure, and ethical AI solutions.',
-      details: `We turn AI from isolated experiments into scalable, business-critical capabilities.
-
-1. AI Strategy & Enablement: Building a responsible, value-driven AI roadmap.
-2. Machine Learning & Analytics: Designing predictive models and insights.
-3. Generative AI & Automation: Using LLMs to automate and enhance workflows.
-4. MLOps & AI Infrastructure: Ensuring reliable deployment and governance.
-
-Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethical & Responsible AI`,
-      color: '#10B981',
+      title: t("ai.title"),
+      description: t("ai.description"),
+      details: t("ai.details"),
+      color: "#10B981",
     },
-  ]
+  ];
 
   return (
     <section id="services" className="py-24 bg-gray-50 relative overflow-hidden">
@@ -75,7 +58,7 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
       <Container maxWidth='lg'>
         {/* Header */}
         <Box className="mb-16 text-center">
-          <Chip variant='outlined' label="Our Services" className="mb-3" />
+          <Chip variant="outlined" label={t("label")} className="mb-3" />
           <Typography
             variant="h2"
             component="h1"
@@ -87,7 +70,7 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
               lineHeight: 1.2
             }}
           >
-            What we Offer
+            {t("title")}
           </Typography>
           <Typography variant='body1' component='p'
             sx={{
@@ -97,8 +80,7 @@ Why Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethic
               mx: 'auto'
             }}
           >
-            We offer Agile Transformation, Data Engineering, and AI & Intelligent Solutions
-            to help businesses innovate, grow, and stay ahead in the digital era.
+            {t("subtitle")}
           </Typography>
         </Box>
 
