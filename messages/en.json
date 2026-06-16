@@ -34,5 +34,34 @@
             "description": "We help businesses move from experimentation to real impact through innovative, scalable, secure, and ethical AI solutions.",
             "details": "We turn AI from isolated experiments into scalable, business-critical capabilities.\n\n1. AI Strategy & Enablement: Building a responsible, value-driven AI roadmap.\n\n2. Machine Learning & Analytics: Designing predictive models and insights.\n\n3. Generative AI & Automation: Using LLMs to automate and enhance workflows.\n\n4. MLOps & AI Infrastructure: Ensuring reliable deployment and governance.\n\nWhy Partner With Us: Certified AI Professionals | Cross-Domain Expertise | Ethical & Responsible AI"
         }
+    },
+    "Partners": {
+        "label": "Partners",
+        "title": "Why Partner With Us",
+        "subtitle": "At Mo Works, we believe real transformation happens when strategy, technology, and people align. Here’s why organizations trust us as their transformation partner:",
+        "certified": {
+            "title": "Certified AI Professionals",
+            "description": "Our experts hold certifications across Databricks, Azure AI, AWS AI/ML, and OpenAI/GenAI frameworks, ensuring enterprise-grade quality and compliance."
+        },
+        "experience": {
+            "title": "Hands-On Experience",
+            "description": "Proven success guiding transformations across industries helping teams deliver faster and smarter."
+        },
+        "tailored": {
+            "title": "Tailored Approach",
+            "description": "No one-size-fits-all each solution is customized to your goals, culture, and technology landscape."
+        },
+        "delivery": {
+            "title": "End-to-End Delivery",
+            "description": "From ideation to industrialization, we deliver production-ready AI solutions that scale."
+        },
+        "sustainable": {
+            "title": "Sustainable Change",
+            "description": "We build your team's capability to ensure lasting impact beyond the project."
+        },
+        "ethical": {
+            "title": "Ethical & Responsible AI",
+            "description": "We prioritize fairness, transparency, and governance in every AI engagement, ensuring trust and accountability at every level."
+        }
     }
 }

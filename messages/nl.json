@@ -34,5 +34,34 @@
             "description": "Wij helpen bedrijven de stap te zetten van experimentatie naar echte impact met innovatieve, schaalbare, veilige en ethische AI-oplossingen.",
             "details": "Wij transformeren AI van losse experimenten naar schaalbare, bedrijfskritische capaciteiten.\n\n1. AI Strategie & Enablement: Het opbouwen van een verantwoorde en waardegerichte AI-roadmap.\n\n2. Machine Learning & Analytics: Het ontwerpen van voorspellende modellen en waardevolle inzichten.\n\n3. Generatieve AI & Automatisering: Het inzetten van LLM's om processen te automatiseren en te verbeteren.\n\n4. MLOps & AI Infrastructuur: Het waarborgen van betrouwbare implementatie en governance.\n\nWaarom kiezen voor ons: Gecertificeerde AI Professionals | Expertise in Verschillende Domeinen | Ethische en Verantwoorde AI"
         }
+    },
+    "Partners": {
+        "label": "Partners",
+        "title": "Waarom samenwerken met ons",
+        "subtitle": "Bij Mo Works geloven we dat echte transformatie ontstaat wanneer strategie, technologie en mensen op elkaar aansluiten. Daarom vertrouwen organisaties ons als hun transformatiepartner:",
+        "certified": {
+            "title": "Gecertificeerde AI Professionals",
+            "description": "Onze experts beschikken over certificeringen in Databricks, Azure AI, AWS AI/ML en OpenAI/GenAI-frameworks, waardoor wij enterprise-grade kwaliteit en compliance waarborgen."
+        },
+        "experience": {
+            "title": "Praktische Ervaring",
+            "description": "Bewezen succes in het begeleiden van transformaties in verschillende sectoren, waarbij teams sneller en slimmer leren leveren."
+        },
+        "tailored": {
+            "title": "Maatwerk Aanpak",
+            "description": "Geen standaardoplossingen elke oplossing wordt afgestemd op uw doelen, cultuur en technologielandschap."
+        },
+        "delivery": {
+            "title": "End-to-End Levering",
+            "description": "Van idee tot industrialisatie leveren wij productieklare AI-oplossingen die schaalbaar zijn."
+        },
+        "sustainable": {
+            "title": "Duurzame Verandering",
+            "description": "Wij bouwen de capaciteiten van uw team op om blijvende impact te garanderen, ook na het project."
+        },
+        "ethical": {
+            "title": "Ethische & Verantwoorde AI",
+            "description": "Wij geven prioriteit aan eerlijkheid, transparantie en governance in elke AI-opdracht, met vertrouwen en verantwoordelijkheid op elk niveau."
+        }
     }
 }

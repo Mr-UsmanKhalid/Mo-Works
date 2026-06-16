@@ -34,5 +34,34 @@
             "description": "Nous aidons les entreprises à passer de l’expérimentation à un impact réel grâce à des solutions d’IA innovantes, évolutives, sécurisées et responsables.",
             "details": "Nous transformons l’IA d’expériences isolées en capacités stratégiques et évolutives pour l’entreprise.\n\n1. Stratégie IA & Adoption : Élaboration d’une feuille de route IA responsable et orientée valeur.\n\n2. Machine Learning & Analyse : Conception de modèles prédictifs et d’insights avancés.\n\n3. IA Générative & Automatisation : Utilisation des LLM pour automatiser et améliorer les processus métier.\n\n4. MLOps & Infrastructure IA : Garantie d’un déploiement fiable et d’une gouvernance efficace.\n\nPourquoi nous choisir : Professionnels IA Certifiés | Expertise Multisectorielle | IA Éthique et Responsable"
         }
+    },
+    "Partners": {
+        "label": "Partenaires",
+        "title": "Pourquoi collaborer avec nous",
+        "subtitle": "Chez Mo Works, nous pensons qu’une véritable transformation se produit lorsque la stratégie, la technologie et les personnes sont alignées. Voici pourquoi les organisations nous font confiance comme partenaire de transformation:",
+        "certified": {
+            "title": "Professionnels IA Certifiés",
+            "description": "Nos experts disposent de certifications sur Databricks, Azure AI, AWS AI/ML et les frameworks OpenAI/GenAI, garantissant une qualité et une conformité de niveau entreprise."
+        },
+        "experience": {
+            "title": "Expérience Pratique",
+            "description": "Un succès éprouvé dans l’accompagnement de transformations dans différents secteurs, aidant les équipes à livrer plus vite et plus intelligemment."
+        },
+        "tailored": {
+            "title": "Approche Sur Mesure",
+            "description": "Pas de solution universelle chaque solution est adaptée à vos objectifs, votre culture et votre environnement technologique."
+        },
+        "delivery": {
+            "title": "Livraison de Bout en Bout",
+            "description": "De l’idéation à l’industrialisation, nous livrons des solutions IA prêtes pour la production et évolutives."
+        },
+        "sustainable": {
+            "title": "Changement Durable",
+            "description": "Nous renforçons les capacités de votre équipe afin de garantir un impact durable au-delà du projet."
+        },
+        "ethical": {
+            "title": "IA Éthique & Responsable",
+            "description": "Nous privilégions l’équité, la transparence et la gouvernance dans chaque mission IA, afin d’assurer confiance et responsabilité à tous les niveaux."
+        }
     }
 }
