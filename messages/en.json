@@ -1,0 +1,13 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "Hero": {
+    "tagline": "Transforming Data, Powering AI, Accelerating Agility",
+    "description": "Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools."
+  }
+}

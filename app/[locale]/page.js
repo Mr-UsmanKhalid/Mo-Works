@@ -1,3 +1,4 @@
+"use-client"
 import AboutSection from "@/components/AboutSection";
 import ClientSection from "@/components/ClientSection";
 import ContactSection from "@/components/ContactSection";

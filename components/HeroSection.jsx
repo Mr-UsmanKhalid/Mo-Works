@@ -3,10 +3,12 @@
 import { Container, Grid, Typography, useTheme, Box } from '@mui/material'
 import React from 'react'
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl'
 
 const HeroSection = () => {
 
   const theme = useTheme();
+  const t = useTranslations('Hero')
 
   return (
     <>
@@ -135,7 +137,7 @@ const HeroSection = () => {
                       textTransform: 'uppercase',
                     }}
                   >
-                    Transforming Data, Powering AI, Accelerating Agility
+                    {t('tagline')}
                   </Typography>
                 </Box>
 
@@ -150,8 +152,8 @@ const HeroSection = () => {
                     zIndex: 50
                   }}
                 >
-                  Mo Works drives digital transformation through Agile practices, Project Management, and Data Intelligence. We empower businesses with high-performing teams, data-driven insights, and specialized training in Agile and Power Platform tools.
-                </Typography>
+                  {t('description')}
+                  </Typography>
 
               </motion.div>
             </Grid>

@@ -1,6 +1,7 @@
 'use client'
-
+import { useRouter, usePathname } from "next/navigation";
 import React, { useEffect, useState } from 'react';
+import { Globe2, Menu as MenuIcon, X } from "lucide-react";
 import {
     AppBar,
     Toolbar,
@@ -12,24 +13,53 @@ import {
     useMediaQuery,
     useTheme,
     Container,
-} from '@mui/material';
-import { Code, Menu, X } from 'lucide-react';
+    Tooltip,
+    Menu,
+    MenuItem,
+    Button,
+} from "@mui/material";
 import Image from 'next/image';
+import { useTranslations, useLocale } from "next-intl";
 
 const Navbar = () => {
+    const t = useTranslations("Navbar");
+
     const [scrolled, setScrolled] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
+    const locale = useLocale();
+    const router = useRouter();
+    const pathname = usePathname();
+
+    const [langAnchor, setLangAnchor] = useState(null);
+    const langOpen = Boolean(langAnchor);
+
+    const languages = [
+        { code: "en", label: "English", flag: "🇬🇧" },
+        { code: "nl", label: "Dutch", flag: "🇳🇱" },
+        { code: "fr", label: "French", flag: "🇫🇷" },
+    ];
+
+    const currentLanguage = languages.find((lang) => lang.code === locale);
+
+    const handleLanguageChange = (newLocale) => {
+        localStorage.setItem("locale", newLocale);
+
+        const segments = pathname.split("/");
+        segments[1] = newLocale;
+
+        router.push(segments.join("/"));
+        setLangAnchor(null);
+    };
+
     const navLinks = [
-        { name: 'Home', href: '#home' },
-        { name: 'About', href: '#about' },
-        { name: 'Services', href: '#services' },
-        // { name: 'Products', href: '#products' },
-        // { name: 'Team', href: '#team' },
-        { name: 'Contact', href: '#contact' }
+        { name: t("home"), href: "#home" },
+        { name: t("about"), href: "#about" },
+        { name: t("services"), href: "#services" },
+        { name: t("contact"), href: "#contact" }
     ];
 
     useEffect(() => {
@@ -60,6 +90,21 @@ const Navbar = () => {
         const restore = (e) => { if (e.persisted) window.scrollTo({ top: 0 }); };
         window.addEventListener('pageshow', restore);
         return () => window.removeEventListener('pageshow', restore);
+    }, []);
+
+    useEffect(() => {
+        const savedLocale = localStorage.getItem("locale");
+
+        if (!savedLocale) {
+            localStorage.setItem("locale", "en");
+            return;
+        }
+
+        if (savedLocale !== locale) {
+            const segments = pathname.split("/");
+            segments[1] = savedLocale;
+            router.replace(segments.join("/"));
+        }
     }, []);
 
     const toggleMenu = () => setMenuOpen(prev => !prev);
@@ -129,6 +174,46 @@ const Navbar = () => {
                                 ))}
                             </List>
                         </Box>
+                        <Tooltip title={t("language")}>
+                            <Button
+                                onClick={(e) => setLangAnchor(e.currentTarget)}
+                                sx={{
+                                    ml: 2,
+                                    color: theme.palette.text.primary,
+                                    textTransform: "none",
+                                    fontWeight: 600,
+                                    minWidth: "auto",
+                                    gap: 1,
+                                    px: 1.5,
+                                    borderRadius: "20px",
+                                    "&:hover": {
+                                        bgcolor: "#f3f4f6",
+                                        color: theme.palette.primary.main,
+                                    },
+                                }}
+                            >
+                                <Globe2 size={18} />
+                                {currentLanguage?.code.toUpperCase()}
+                            </Button>
+                        </Tooltip>
+
+                        <Menu
+                            anchorEl={langAnchor}
+                            open={langOpen}
+                            onClose={() => setLangAnchor(null)}
+                        >
+                            {languages.map((lang) => (
+                                <MenuItem
+                                    key={lang.code}
+                                    selected={locale === lang.code}
+                                    onClick={() => handleLanguageChange(lang.code)}
+                                    sx={{ gap: 1.5, minWidth: 140 }}
+                                >
+                                    <span>{lang.flag}</span>
+                                    <span>{lang.label}</span>
+                                </MenuItem>
+                            ))}
+                        </Menu>
 
                         {/* Mobile Toggle */}
                         <IconButton
@@ -136,11 +221,14 @@ const Navbar = () => {
                             color="primary"
                             sx={{ display: { xs: 'block', md: 'none' } }}
                         >
-                            {menuOpen ? <X size={24} /> : <Menu size={24} />}
+                            {/* {menuOpen ? <X size={24} /> : <Menu size={24} />} */}
+                            {menuOpen ? <X size={24} /> : <MenuIcon size={24} />}
                         </IconButton>
                     </Toolbar>
                 </Container>
+
             </AppBar>
+
 
             {/* Mobile Menu */}
             <Box

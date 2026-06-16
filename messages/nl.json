@@ -1,0 +1,16 @@
+{
+    "Navbar": {
+    "home": "Home",
+    "about": "Over Ons",
+    "services": "Diensten",
+    "contact": "Contact",
+    "language": "Taal"
+  },
+  "Hero": {
+    "tagline": "Data transformeren, AI versterken, wendbaarheid versnellen",
+    "description": "Mo Works stimuleert digitale transformatie via Agile werkwijzen, projectmanagement en data-intelligentie. Wij ondersteunen bedrijven met sterke teams, datagedreven inzichten en gespecialiseerde trainingen in Agile en Power Platform-tools."
+  }
+  
+  
+
+}

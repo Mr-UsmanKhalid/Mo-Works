@@ -1,0 +1,13 @@
+{
+  "Navbar": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "Hero": {
+    "tagline": "Transformer les données, renforcer l’IA, accélérer l’agilité",
+    "description": "Mo Works accompagne la transformation numérique grâce aux pratiques Agile, à la gestion de projet et à l’intelligence des données. Nous aidons les entreprises avec des équipes performantes, des insights basés sur les données et des formations spécialisées sur Agile et Power Platform."
+  }
+}
