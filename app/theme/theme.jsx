@@ -11,7 +11,7 @@ const theme = createTheme({
         secondary: {
             main: "#2D7A6E",        // Also use brand purple for secondary
             light: "#7E67FB",
-            dark: "#3A2BC6",
+            dark: "#08483e",
             contrastText: "#ffffff",
         },
         text: {
